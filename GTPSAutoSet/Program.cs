@@ -433,7 +433,7 @@ namespace GTPSAutoSet
 
                 {
                     string ipvps = new WebClient().DownloadString("http://ipinfo.io/ip").Replace("\n", "");
-                    hosts.Write(ipvps + "growtopia1.com\n" + ipvps + "growtopia2.com");
+                    hosts.Write(ipvps + " growtopia1.com\n" + ipvps + " growtopia2.com");
                 }
                 Console.Write("\n");
                 Console.ForegroundColor = ConsoleColor.White;
